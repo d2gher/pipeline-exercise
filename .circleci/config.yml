@@ -18,5 +18,5 @@ jobs:
             npm run frontend:install
       - run:
           name: Install API Dependencies
-          command: |
+          command: 
             npm run backend:install
