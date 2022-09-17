@@ -1,1 +1,1 @@
-aws s3 cp --recursive --acl public-read ./build s3://elasticbeanstalk-us-east-2-966592659578/
+aws s3 cp --recursive --acl public-read ./build s3://pipeline-test-d2gher/
