@@ -21,6 +21,7 @@ jobs:
           command: |
             npm run frontend:install
       - run:
+<<<<<<< HEAD
           name: Back-End build
           command: |
             npm run backend:build
@@ -32,3 +33,8 @@ jobs:
           name: hello
           command: |
             echo "hello-world"
+=======
+          name: Install API Dependencies
+          command: 
+            npm run backend:install
+>>>>>>> 1a8caa12053c43be806b682c5e1ae03d313c58a1
