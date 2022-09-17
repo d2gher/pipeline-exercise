@@ -9,6 +9,10 @@ jobs:
     steps:
       - node/install
       - checkout
+      - run: 
+          name: Install Yarn
+          command: |
+            npm install --global yarn
       - run:
           name: Front-End Install
           command: |
